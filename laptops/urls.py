@@ -1,6 +1,6 @@
 from .views import laptops 
 from django.urls import path
 
-urlpatters = [
+urlpatterns = [
     path('',laptops, name = 'laptops-page')
 ]

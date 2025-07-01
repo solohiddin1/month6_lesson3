@@ -4,4 +4,4 @@ from .models import Laptops
 
 def laptops(request):
     laptops = Laptops.objects.all()
-    return render(request,'laptops/laptops_page.html',{'laptops':laptops})
+    return render(request,'laptops_page.html',{'laptops':laptops})
